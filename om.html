@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Om os</title>
+</head>
+<!--Slut af Head -->
+<!-- Start af Body -->
+<body>
+    <!-- Start af Header -->
+        <header>
+    <!-- Start of Nav -->
+            <nav class="navbar">
+                <div class="header_main">
+                    <button onclick="toggleMenu()" class="burger"></button>
+                    <button class="button">
+                        <img class="forside_logo" src="img/nlp-logo.png" alt="website_logo">
+                    </button>
+                 </div>
+                <div class="dropdowns">
+    <!-- Start af Første Dropdown Section -->
+                  <div class="dropdown">
+                    <button class="button">
+                      Hvad er NLP
+                      <img class="dropdown_icon" src="img/chevron-compact-down.svg"  alt="dropdown-menu-icon"/>
+                    </button>
+                    <div class="dropdown-menu">
+                      <button class="dropdown-menu-item">Forside</button>
+                      <button class="dropdown-menu-item">NLP</button>
+                    </div>
+                  </div>
+    <!-- Slut af Første Dropdown Section -->
+    <!-- Start af Andet Dropdown Section -->
+                  <div class="dropdown">
+                    <button class="button">
+                      Uddannelser & Kurser
+                      <img class="dropdown_icon" src="img/chevron-compact-down.svg"  alt="dropdown-menu-icon"/>
+                    </button>
+                    <div class="dropdown-menu">
+                        <button class="dropdown-menu-item">NLP Practitioner</button>
+                        <button class="dropdown-menu-item">NLP Master Practitioner</button>
+                        <button class="dropdown-menu-item">NLP Samtaleterapeut</button>
+                        <button class="dropdown-menu-item">NLP Psykoterapeut</button>
+                        <button class="dropdown-menu-item">Kurser</button>
+                    </div>
+                  </div>
+    <!-- Slut af Andet Dropdown Section -->
+    <!-- Start af Tredje Dropdown Section -->
+                    <div class="dropdown">
+                        <button class="button">
+                            FAQ
+                            <img class="dropdown_icon" src="img/chevron-compact-down.svg"  alt="dropdown-menu-icon"/>
+                        </button>
+                        <div class="dropdown-menu">
+                            <button class="dropdown-menu-item">Betaling & Priser</button>
+                            <button class="dropdown-menu-item">Uddannelser</button>
+                            <button class="dropdown-menu-item">Kurser</button>
+                        </div>
+                    </div>
+    <!-- Slut af Tredje Dropdown Section -->
+    <!-- Start af Fjerde Dropdown Section -->
+                    <div class="dropdown">
+                        <button class="button">
+                            Om Os
+                            <img class="dropdown_icon" src="img/chevron-compact-down.svg"  alt="dropdown-menu-icon"/>
+                        </button>
+                        <div class="dropdown-menu">
+                            <button class="dropdown-menu-item">Vores Historie</button>
+                            <button class="dropdown-menu-item">Visioner</button>
+                        </div>
+                    </div>
+    <!-- Slut af Fjerde Dropdown Section -->
+                </div>
+              </nav>
+    <!-- Slut af Nav -->
+        </header>
+    <!-- Slut af Header -->
+    <!-- Start af Script -->
+        <!-- Line "const toggleMenu" = Menu Functions -->
+        <!-- Line "const btn" and down = Dark Mode Functions -->
+        <!-- localStorage = remembers users preference-->
+        <script>
+            const toggleMenu = () => document.body.classList.toggle("open");
+            const btn = document.querySelector(".btn-toggle");
+            const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
+        </script>
+    <!-- Slut af Script -->
+    <!-- Start of Main -->
+    <main>
+            <div class="container1">
+                <!-- <div> -->
+                    <img src="img/_M6A1323copy3.jpg" alt="Hanne Aamand sidder i stol og smiler">
+                <!-- </div>  -->
+                
+                <div class="textbox1">
+                    <h1>Om os</h1>
+                    <p>Jeg hedder Hanne Aamand og er ejer af NLP-fyn. Jeg har 20 års erfaring i at arbejde med mennesker - Jeg brænder for at hjælpe mennesker og nøgleord i mit møde med andre, er hjælp til selvhjælp.</p>
+                    <p>Ud over NLP-fyn har jeg siden 2019, arbejdet frivilligt som Coach i LMS - Landsforeningen mod spiseforstyrrelser og selvskade.</p>
+                    <p>Som underviser af NLP har jeg tilegnet mig al den viden der kan tages indenfor området og du kan derfor være sikker på, at få en højkompetent og nærværende lærer, der ser den enkelte kursist som individ og som skaber det bedst mulige læringsmiljø, med plads til personlig og faglig læring og udvikling.</p>
+                </div>    
+                
+            </div>
+
+            <container class="container2">
+                <div class="desktop-img">
+                <img src="img/_M6A1051copydesktop.jpg" alt="Hanne Aamand står ved whiteboard og underviser klassen">
+                </div>
+                <div class="mobile-img">
+                    <img src="img/_M6A1051mobile.jpg" alt="Hanne Aamand står ved whiteboard og underviser klassen"> 
+                </div>
+                <div class="textbox2">
+                    <h2>Curriculum Vitae</h2>
+                    <p>2019 Stephen G. Gilligan, ph.D Instructor, LIC. Psychologist PSY 11735
+                        Grad Certificate in Basic Training, Intermediate training, and Advanced training in Generative Trance Work
+                        </p>
+                    <p>2019 Systemisk familieopstilling individuel</p>
+                    <p>2016 NLP Master Trainer (University of California, Santa Cruz)</p>
+                    <p>2015 NLP Træner (University of California, Santa Cruz)
+                    </p>
+                    <p>2015 Superviser</p>
+                    <p>2015 Eksamineret og certificeret NLP Psykoterapeut</p>
+                    <p>2014 Kognitiv adfærdsterapi</p>
+                    <p>2014 NLP-Coach</p>
+                    <p>2013 NLP Counselor</p>
+                    <p>2013 Hypnoterapeut</p>
+                    <p>2012 Instruktør i TRE – Trauma Releasing Exercises level 1
+                    </p>
+                    <p>2012 NLP Samtaleterapeut
+                    </p>
+                    <p>2012 NLP Master Practitioner
+                    </p>
+                    <p>2012 NLP Practitioner</p>
+                    <p>2010 Merkonom i Kommunikation</p>
+                    <p>2009 Merkonom i Ledelse</p>
+                    <p>1996 Social og sundhedsassistent</p>
+                </div>
+            </container>
+
+            <container class="container3">
+                <div class="headline">
+                    <h1>Kontakt</h1>
+                </div>
+                <div class="kontakt">
+                    <div class="kontaktinfo">
+                        <p>NLP-Fyn</p>
+                        <p>Dronningensvej 7, 1. TH, 5800 Nyborg</p>
+                        <p>Telefon: +45 2728 6099</p>
+                        <p>Email: nlp-fyn@nlp-fyn.dk</p>
+                        <p>Website: www.nlp-fyn.dk</p>
+                    </div>
+                    <div class="verticalline"></div>
+                    <div>
+                        <img src="img/_M6A0740-transparentcopy4.png" alt="Hanne Aamand stårmed foldede hænder og smiler til kameraet">
+                    </div>
+            </container>
+    </main>
+    <!-- Slut af Main -->
+    <!-- Start af Footer -->
+        <footer class="footer">
+            <div class="footer_container">
+                <div class="footer_top">
+    <!-- Start af Første Section -->
+                    <div>
+                        <h6 class="footer_title">Indhold</h6>
+                        <ul class="footer_list">
+                            <li class="footer_list-item">
+                                <a href="" class="footer_list-link">Forside</a>
+                            </li>
+                            <li class="footer_list-item">
+                                <a href="" class="footer_list-link">NLP Practitioner</a>
+                            </li>
+                            <li class="footer_list-item">
+                                <a href="" class="footer_list-link">NLP Master Practitioner</a>
+                            </li>
+                            <li class="footer_list-item">
+                                <a href="" class="footer_list-link">NLP Samtaleterapeut</a>
+                            </li>
+                            <li class="footer_list-item">
+                                <a href="" class="footer_list-link">NLP Psykoterapeut</a>
+                            </li>
+                            <li class="footer_list-item">
+                                <a href="" class="footer_list-link">FAQ</a>
+                            </li>
+                            <li class="footer_list-item">
+                                <a href="" class="footer_list-link">Om Os</a>
+                            </li>
+                        </ul>
+                    </div>
+    <!-- Slut af Første Section -->
+                </div>
+            </div>
+            <section>
+                <div class="company__info">
+                    <!-- Brand Logo -->
+                                        <h2 class="company__logo">Følg NLP-Fyn</h2>
+                    <!--  Brand Beskrivelse -->
+                                        <p class="company__description">Husk at for få flere nyheder, så husk at følg med!</p>
+                    <!-- Social Media Section -->
+                        <!-- Facebook -->
+                                        <ul class="socialmedia">
+                                            <li class="socialmedia_icons">
+                                                <a href="#" class="socialmedia_icons_items">
+                                                    <img src="img/facebook.svg" alt="facebook-icon">
+                                                </a>
+                                            </li>
+                        <!-- Instagram -->
+                                            <li class="socialmedia_icons">
+                                                <a href="#" class="socialmedia_icons_items">
+                                                    <img src="img/instagram.svg" alt="instagram-icon">
+                                                </a>
+                                            </li>
+                        <!-- Linkedin -->
+                                            <li class="socialmedia_icons">
+                                                <a href="#" class="socialmedia_icons_items">
+                                                    <img src="img/linkedin.svg" alt="linkedin-icon">
+                                                </a>
+                                            </li>
+                                        </ul>
+                    <!-- Slut af Social Media Section -->
+                                        <span class="copyright">&copy;2022 NLP-Fyn. All rights reserved.</span>
+                    <!-- Politik Section -->
+        <!-- Cookie Politik -->
+                        <ul class="socialmedia">
+                            <li class="socialmedia_icons">
+                                <a href="#">Cookie Politik</a>
+                            </li>
+        <!-- Privatlivspolitik -->
+                            <li class="socialmedia_icons">
+                                <a href="#">Privatlivspolitik</a>
+                            </li>
+        <!-- Handelsbetingelser -->
+                            <li class="socialmedia_icons">
+                                <a href="#">Handelsbetingelser</a>
+                            </li>
+        <!-- Databeskyttelse -->
+                            <li class="socialmedia_icons">
+                                <a href="#">Databeskyttelse</a>
+                            </li>
+                        </ul>
+    <!-- Slut af Social Media Section -->
+                    </div>
+            </section>
+        </footer>
+    <!-- Slut af Footer -->
+    </body>
+    <!-- Slut af Body -->
+    </html>
